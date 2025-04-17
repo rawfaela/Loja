@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="stylessss.css" type="text/css">
+    <title>Cadastro de Produtos</title>
+</head>
+<body>
+    <h1>Cadastro de Produtos</h1>
+    <form name="formulario" method="post" action="cadastro.php" enctype="multipart/form-data"> <!-- enctype pra anexar imagem -->
+        Codigo: <input type="text" name="codigoproduto" id="codigoproduto" size="20">
+        <br><br>
+        Descricao: <input type="text" name="descricaoproduto" id="descricaoproduto" size="20">
+        <br><br>
+        Cor: <input type="text" name="corproduto" id="corproduto" size="20">
+        <br><br>
+        Tamanho: <input type="text" name="tamanhoproduto" id="tamanhoproduto" size="20">
+        <br><br>
+        Preco: <input type="text" name="precoproduto" id="precoproduto" size="20">
+        <br><br>
+        Codigo da marca: <input type="text" name="codmarca" id="codmarca" size="20">
+        <br><br>
+        Codigo da categoria: <input type="text" name="codcategoria" id="codcategoria" size="20">
+        <br><br>
+        Codigo do tipo: <input type="text" name="codtipo" id="codtipo" size="20">
+        <br><br>
+        Foto 1: <input type="file" name="foto1" id="foto1">
+        <br><br>
+        Foto 2: <input type="file" name="foto2" id="foto2">
+        <br><br>
+        <input type="submit" name="salvarproduto" value="salvar">
+        <input type="submit" name="alterarproduto" value="alterar">
+        <input type="submit" name="excluirproduto" value="excluir">
+        <input type="submit" name="pesquisarproduto" value="pesquisar">
+    </form>
+</body>
+</html>
